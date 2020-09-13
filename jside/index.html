@@ -1,0 +1,48 @@
+<!doctype html>
+
+<html>
+	
+	<head>
+		
+		<link rel="stylesheet" href="styles/default.css">
+		
+		<script src="scripts/editor.js"></script>
+		
+		<title>JSIDE</title>
+		
+	</head>
+	
+	<body onload="onload();">
+		
+		<button class="btn" onclick="run();">Run</button>
+		<button class="btn" onclick="stop();">Stop</button>
+		
+		<div id="runInd"></div>
+		
+		<div class="editorWrapper">
+			<div id="editor" class="editor" contenteditable="true">
+				function init(){<br>&nbsp;&nbsp;&nbsp;<br>}<br><br>
+				function run(ctx) {<br>&nbsp;&nbsp;&nbsp;<br>}<br><br>
+				function keyDown(e) {<br>&nbsp;&nbsp;&nbsp;<br>}<br><br>
+				function keyUp(e) {<br>&nbsp;&nbsp;&nbsp;<br>}<br><br>
+				function mouseDown(e) {<br>&nbsp;&nbsp;&nbsp;<br>}<br><br>
+				function mouseUp(e) {<br>&nbsp;&nbsp;&nbsp;<br>}<br><br>
+				function mouseMove(e) {<br>&nbsp;&nbsp;&nbsp;<br>}<br><br>
+			</div>
+		</div>
+		
+		<div class="canvasWrapper">
+			<canvas id="canvas">
+			</canvas>
+		</div>
+		
+		<div class="consoleWrapper">
+			<div id="output">
+			</div>
+			<div id="input" contenteditable="true">
+			</div>
+		</div>
+		
+	</body>
+	
+</html>
